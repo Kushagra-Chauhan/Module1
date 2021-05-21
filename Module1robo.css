@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.header{
+    min-height: 150vh;
+    width: 100%;
+    background-image: url(robot.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 65px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 30px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    margin-right: 50%;
+}
+
+.text-box h2{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 24px;
+    padding-right: 40%;
+    margin-top: 60px;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 2px solid black ;
+    background: rgb(235, 240, 235);
+    transform: 1s;
+    color: black;
+}
+
+.container{
+    background-image:url(robot1.jpeg);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container h3{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.container p{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 5%;
+    padding: 20px;
+}
+
+.container-1{
+    display: flex;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+
+.box{
+    /* margin-right: 50%;
+    margin-left: 10%;
+    display: flex; */
+    
+    margin: 20px;
+    box-sizing: border-box;
+    flex-basis: 31%;
+    background: wheat;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    justify-content: center;
+}
+
+.box h4{
+    font-size: 30px;
+    /* text-align: left; */
+    /* margin-left: 10%; */
+}
+
+.box p{
+font-size: 20px;
+}
+
+
+
+
